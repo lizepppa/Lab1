@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fuel Calculator</string>
+    <string name="hint_hp">HP (%)</string>
+    <string name="hint_cp">CP (%)</string>
+    <string name="hint_sp">SP (%)</string>
+    <string name="hint_np">NP (%)</string>
+    <string name="hint_op">OP (%)</string>
+    <string name="hint_wp">WP (%)</string>
+    <string name="hint_ap">AP (%)</string>
+    <string name="button_calculate">Розрахувати</string>
+    <string name="result_text">Результат: </string>
+</resources>

@@ -1,0 +1,91 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст водню (Hp %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст вуглецю (Cp %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст сірки (Sp %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextNP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст азоту (Np %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст кисню (Op %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextWP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст вологи (Wp %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextAP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вміст золи (Ap %)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:maxWidth="300dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/button_calculate" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_text" />
+</LinearLayout>
